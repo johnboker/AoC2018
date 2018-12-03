@@ -24,7 +24,7 @@ namespace AoC2018.Solutions
 
         public void SolvePart2()
         {
-            var frequencies = new List<int> { 0 };
+            var frequencies = new HashSet<int> { 0 };
             var c = 0;
             var i = 0;
 
