@@ -68,7 +68,7 @@ namespace AoC2018.Solutions
                     if (Fabric[y, x] != 1)
                     {
                         return true;
-                    };
+                    }
                 }
             }
             return false;
