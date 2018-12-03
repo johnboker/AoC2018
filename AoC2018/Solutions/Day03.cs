@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
 using System.Text.RegularExpressions;
 
 namespace AoC2018.Solutions
@@ -16,7 +15,7 @@ namespace AoC2018.Solutions
         {
             Input = File.ReadAllLines($"Inputs/input03{(useTestInput ? "_test" : "")}.txt")
                     .Select(a => new Claim(a))
-                   .ToList();
+                    .ToList();
 
             InitializeFabric(Input);
         }
