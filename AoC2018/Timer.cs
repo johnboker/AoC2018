@@ -4,14 +4,14 @@ using System.Diagnostics;
 namespace AoC2018
 {
     public static class Timer
-    {
-        private static Stopwatch Stopwatch = new Stopwatch();
+    { 
         public static void Time(Action action)
         {
-            Stopwatch.Restart(); 
+            var stopwatch = new Stopwatch();
+            stopwatch.Restart();
             action();
-            Stopwatch.Stop();
-            Console.WriteLine($"{Stopwatch.Elapsed}\n");
+            stopwatch.Stop();
+            Console.WriteLine($"{stopwatch.Elapsed}\n");
         }
     }
 }
