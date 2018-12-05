@@ -71,7 +71,7 @@ namespace AoC2018.Solutions
 
             var minute = Array.IndexOf(item.Minutes, item.Max);
 
-            Console.WriteLine($"Day 04 Part 1: {item.Id}x{minute}={item.Id * minute}");
+            Console.WriteLine($"Day 04 Part 2: {item.Id}x{minute}={item.Id * minute}");
         }
 
         private int[] GetMinutesAsleepPerMinute(List<GuardActivity> activities)
