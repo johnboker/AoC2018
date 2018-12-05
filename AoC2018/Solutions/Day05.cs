@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -58,6 +57,7 @@ namespace AoC2018.Solutions
             }
             return polymer;
         }
+         
 
         private bool HasReactions(string polymer)
         {
